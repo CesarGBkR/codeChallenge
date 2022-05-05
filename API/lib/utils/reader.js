@@ -1,10 +1,12 @@
 const fs = require('fs')
-class controller {
+class reader {
     static readerJsonFile(path) {
-        const rawdata =fs.readFileSync(path)
+        const rawdata = fs.readFileSync(path)
         return JSON.parse(rawdata)
+        
 
     }
 }
 
-module.exports = controller
+module.exports = reader
+
