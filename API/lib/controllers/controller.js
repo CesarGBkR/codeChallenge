@@ -31,3 +31,5 @@ class controller {
 
 
 module.exports = controller
+
+controller.getStudents('students.json')

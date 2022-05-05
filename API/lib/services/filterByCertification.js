@@ -10,4 +10,3 @@ class filterByCertification {
 
 
 module.exports = filterByCertification
-
