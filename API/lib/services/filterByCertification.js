@@ -1,4 +1,3 @@
-
 class filterByCertification {
     static filter (students, certification){
         const studentsCertificades = students.filter((student) => student.haveCertification == certification)
