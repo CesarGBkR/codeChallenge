@@ -4,7 +4,6 @@ class filterByCertification {
         var emails = studentsCertificades.map(function (element) {
             return element.email
         })
-        console.log(emails)
         return emails
     }
 }

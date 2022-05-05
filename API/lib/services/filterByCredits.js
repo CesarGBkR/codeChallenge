@@ -6,9 +6,9 @@ class filterByCredits {
         })
         return name
     }
-    static smallerThan (students, credits){
-        const studentsSmallerThan = students.filter((student) => student.credits < credits)
-        var name = studentsSmallerThan.map(function (element) {
+    static lessThan (students, credits){
+        const studentsLessThan = students.filter((student) => student.credits < credits)
+        var name = studentsLessThan.map(function (element) {
             return element.name
         })
         return name
