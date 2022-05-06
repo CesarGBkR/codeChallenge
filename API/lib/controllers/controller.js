@@ -5,7 +5,6 @@ const filterByCredits = require('../services/filterByCredits')
 class controller {
     static getStudents (path) {
         const students = reader.readerJsonFile(path)
-        console.log(students)
         return students
     }
 
