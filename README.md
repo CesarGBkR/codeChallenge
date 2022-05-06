@@ -13,14 +13,14 @@ De la misma forma creé el parámetro CERTIFICATION para poder mandar en su luga
 ### En esta ocasión, tras haber visto código más limpio que el mío en prácticas anteriores, logre optimizar mi proyecto al agregar .map dentro de mis funciones en vez de agregar un array vacío en donde almacenar elementos resultantes de un ciclo con condicional, un método que hasta a mí me parecía impráctico. Espero seguir mejorando mis prácticas al momento de escribir código. 
 
 
-## Dependencias
+## Dependencias 🔗
 
 
 Dentro de las dependencias implementamos npm para la gestión de paquetes como lo es Jest, el cual usamos para realizar pruebas para cada uno de los componentes, optimizando el flujo de trabajo agregando scripts dentro del packag.json. 
 Para una adecuada función del servidor del servidor local, usamos express que tiene una estructuración simple para el despliegue. 
 
 
-## Detalles sobre el funcionamiento del API
+## Detalles sobre el funcionamiento del API 🔍
 
 Yendo a una explicación práctica, la **API** funciona creando consultas a través de una **URL**, consultas relacionadas a un archivo. **JSON** almacenado de forma local. 
 Las consultas por el momento se limitan a llamar al total de estudiantes junto a los atributos de cada uno esto es mediante el **URL** ***http://localhost:3000/v1/allStudents/*** 
