@@ -1,4 +1,4 @@
-const filterByCredits = require('../services/filterByCredits')
+const filterByCredits = require('../../services/filterByCredits')
 
 describe('Test lab to Filter By Credits service', () => {
     test('Test 1: filter by greater than and smaller than', () => {
